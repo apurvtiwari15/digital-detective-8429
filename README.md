@@ -21,3 +21,10 @@ Each mission is completed, documented in its own `README.md`, committed separate
 ## Evidence
 
 Privacy-safe command outputs and supporting notes are stored in [evidence/](evidence/).
+
+## My Learning
+
+- **Terminal and OS fundamentals:** Practised navigating directories, managing files with pipes and flags, and inspecting running processes and file permissions.
+- **How programs and data work:** Compared compiled vs. interpreted languages, converted between decimal, binary, and hexadecimal, and built a working Python number converter.
+- **Version control workflow:** Learned how staging, committing, branching, and Pull Requests keep changes organized and reviewable.
+
