@@ -1,0 +1,24 @@
+$ pwd
+/Users/[redacted]/Desktop/digital-detective-8429/terminal-practice
+
+$ cat notes.txt
+First line: exploring Terminal commands.
+Second line: appending without overwriting.
+
+$ ls
+notes.txt		notes_backup.txt
+
+$ ls -lah
+total 16
+drwxr-xr-x@  4 [redacted]  staff   128B Nov 25 23:32 .
+drwxr-xr-x@ 15 [redacted]  staff   480B Nov 25 23:32 ..
+-rw-r--r--@  1 [redacted]  staff    85B Nov 25 23:32 notes.txt
+-rw-r--r--@  1 [redacted]  staff    85B Nov 25 23:32 notes_backup.txt
+
+$ ls -l | head -n 5
+total 16
+-rw-r--r--@ 1 [redacted]  staff  85 Nov 25 23:32 notes.txt
+-rw-r--r--@ 1 [redacted]  staff  85 Nov 25 23:32 notes_backup.txt
+
+$ brew --version
+Homebrew 7.0.8
